@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from '../assets/html.png'
+import Logo from '../assets/logo.png'
 import {FaBars, FaTimes ,FaGithub,FaLinkedin } from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
@@ -10,11 +10,8 @@ const Navbar = () => {
   const [nav,setNav] = useState(false)
   const handleClick = () => setNav(!nav)
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
-      <div>
-        <img src={Logo} alt="Logo" style={{width: '50px'}}></img>
-      </div>
-
+    <div className='fixed w-full h-[80px] flex justify-end items-center px-4 bg-[#0a192f] text-gray-300'>
+    
       {/* menu */}
       <div className='hidden md:flex'>
       <ul className='md:flex'>
@@ -29,13 +26,13 @@ const Navbar = () => {
         </Link>
         </li>
         <li>
-          <Link  to="work"  smooth={true}  duration={500} >
-          Work
+          <Link  to="skills"  smooth={true}  duration={500} >
+          Skills
         </Link>
         </li>
         <li>
-          <Link  to="skills"  smooth={true}  duration={500} >
-          Skills
+          <Link  to="work"  smooth={true}  duration={500} >
+          Work
         </Link>
         </li>
         <li>
@@ -48,7 +45,7 @@ const Navbar = () => {
 
       {/* hhh */}
       <div onClick={handleClick} className='md:hidden z-10'>
-        {!nav ? <FaBars/> : <FaTimes/>}
+        {!nav ? <FaBars className='cursor-pointer'/> : <FaTimes/>}
       </div>
       {/* mobile menu */}
       <ul className={!nav ? 'hidden':'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
