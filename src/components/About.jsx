@@ -17,7 +17,7 @@ const About = () => {
                         <p>Hi. I'm Joe, nice to meet you .Please take a look around.</p>
                     </div>
                 <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe tenetur cum architecto repellat fugiat voluptatum necessitatibus perferendis laborum quia iusto. Molestias inventore vel dolorum veritatis maxime labore enim, ex dolorem!</p>
+                    <p className='pt-6'>I'm 22 years old now. I'm a third-year Computer Engineering student at Kasetsart University. I'm interested in UX/UI Design, Front-end  and Back-end developement.</p>
 
                 </div>
                 </div>
