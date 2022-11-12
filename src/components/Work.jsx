@@ -7,10 +7,10 @@ const Work = () => {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Experience</p>
-                <p className='py-6'>check out some of my projects</p>
+                <p className='py-6'>check out my term project and best practice projects</p>
             </div>
 {/* container */}
-            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+            <div className='grid sm:grid-cols-2 gap-4'>{/* md:grid-cols-3  */}
                 {/* grid item */}
                 {/* 1 */}
                 {worksList.map((work,index) => (

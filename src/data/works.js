@@ -34,18 +34,18 @@ export const works =[
         github:"https://github.com/DaBekCarRie/crud-callmeapi-postman",
         demo:"https://crud-callmeapi-postman.web.app"
     },
-    {
-        id:5,
-        name:"React JS Application",
-        image:bear1,
-        github:"/",
-        demo:"/"
-    },
-    {
-        id:6,
-        name:"React JS Application",
-        image:hedehog1,
-        github:"/",
-        demo:"/"
-    },
+    // {
+    //     id:5,
+    //     name:"React JS Application",
+    //     image:bear1,
+    //     github:"/",
+    //     demo:"/"
+    // },
+    // {
+    //     id:6,
+    //     name:"React JS Application",
+    //     image:hedehog1,
+    //     github:"/",
+    //     demo:"/"
+    // },
 ]
