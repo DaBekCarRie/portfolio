@@ -17,7 +17,7 @@ const Skills = () => {
                     Skills
                 </p>
                 <p className='py-4'>
-                    These are some skills my skills
+                    These are some of my skills
                 </p>
             </div>
 
