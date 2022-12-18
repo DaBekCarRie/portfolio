@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Logo from '../assets/logo.png'
 import {FaBars, FaTimes ,FaGithub,FaLinkedin } from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
@@ -12,7 +11,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-end items-center px-4 bg-[#0a192f] text-gray-300'>
     
-      {/* menu */}
+      {/* menu จอปกติ */}
       <div className='hidden md:flex'>
       <ul className='md:flex'>
         <li>
@@ -48,7 +47,7 @@ const Navbar = () => {
       </ul>
       </div>
 
-      {/* hhh */}
+      {/* mobile menu จอกลางขึ้นไป จะไม่ขึ้น */}
       <div onClick={handleClick} className='md:hidden z-10'>
         {!nav ? <FaBars className='cursor-pointer'/> : <FaTimes/>}
       </div>

@@ -1,7 +1,7 @@
 import legaltech from '../assets/activitiypic/legaltech.jpg'
 import bitkub from '../assets/activitiypic/bitkub.jpg'
 import G1 from '../assets/activitiypic/G1.png'
-import letmetry from '../assets/activitiypic/letmetry.jpeg'
+import letmetry from '../assets/activitiypic/letmetry.jpg'
 
 export const activities =[
     {

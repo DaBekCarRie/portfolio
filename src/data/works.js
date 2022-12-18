@@ -2,8 +2,6 @@ import barinstrom from '../assets/workpic/barinstrom.png'
 import sunny from '../assets/workpic/sunny.png'
 import todoApp from '../assets/workpic/todoApp.png'
 import crud from '../assets/workpic/crud.png'
-import hedehog1 from '../assets/workpic/hedehog1.jpeg'
-import bear1 from '../assets/workpic/bear1.jpeg'
 
 export const works =[
     {
