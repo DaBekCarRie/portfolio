@@ -1,5 +1,6 @@
 import React from 'react'
 import { works } from '../data/works' 
+import kbtg from '../assets/workpic/kbtg.JPG'
 const Work = () => {
     const worksList = works;
   return (
@@ -34,6 +35,9 @@ const Work = () => {
                         </div>
                     </div>
                 ))}
+                <div  style={{backgroundImage: `url(${kbtg})`}}
+                    className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    </div>
             </div>
         </div>
 

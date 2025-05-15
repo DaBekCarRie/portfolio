@@ -2,6 +2,7 @@ import legaltech from '../assets/activitiypic/legaltech.jpg'
 import bitkub from '../assets/activitiypic/bitkub.jpg'
 import G1 from '../assets/activitiypic/G1.png'
 import letmetry from '../assets/activitiypic/letmetry.jpg'
+import wat from '../assets/activitiypic/wat.JPG'
 
 export const activities =[
     {
@@ -19,9 +20,14 @@ export const activities =[
         name:"Staff of Let Me Tired Camp",
         image:letmetry,
     },
+    // {
+    //     id:4,
+    //     name:"Apply to Chula LegalTech",
+    //     image:legaltech,
+    // },
     {
         id:4,
-        name:"Apply to Chula LegalTech",
-        image:legaltech,
+        name:"Work And Travel at USA",
+        image:wat,
     },
 ]

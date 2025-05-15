@@ -17,7 +17,7 @@ const About = () => {
                         <p>Hi. I'm Joe, nice to meet you. Please take a look around.</p>
                     </div>
                 <div>
-                    <p className='pt-6'>I'm 22 years old now. I'm a third-year Computer Engineering student at Kasetsart University. I'm interested in UX/UI Design, Front-end  and Back-end developement.</p>
+                    <p className='pt-4'>My name is Chaini Mitrsatit. I’m a 24-year-old Computer Engineering graduate from Kasetsart University, seeking a job or internship to gain practical experience and enhance my skills for the professional workplace.</p>
 
                 </div>
                 </div>

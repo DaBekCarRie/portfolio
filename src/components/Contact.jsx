@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contract = () => {
   return (
-    <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4' >
+    <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4 pt-20' >
         <form method='POST' action="https://getform.io/f/1c9cee23-36ec-4c3f-92f3-06c326df6924" className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contract</p>
