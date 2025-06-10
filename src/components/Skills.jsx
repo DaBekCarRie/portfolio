@@ -1,4 +1,3 @@
-import React from "react";
 import html from "../assets/skillpic/html.png";
 import react from "../assets/skillpic/react.png";
 import tailwind from "../assets/skillpic/tailwind.png";
@@ -74,7 +73,7 @@ const Skills = () => {
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-400">
             <img
-              className="w-20 mx-auto pt-[20px]"
+              className="w-20 mx-auto pt-[40px]"
               src={tailwind}
               alt="tailwind icon"
             />

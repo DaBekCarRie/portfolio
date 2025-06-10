@@ -2,6 +2,8 @@ import barinstrom from '../assets/workpic/barinstrom.png'
 import sunny from '../assets/workpic/sunny.png'
 import todoApp from '../assets/workpic/todoApp.png'
 import crud from '../assets/workpic/crud.png'
+import travelAgency from '../assets/workpic/travel_agency.png'
+
 
 export const works =[
     {
@@ -32,13 +34,13 @@ export const works =[
         github:"https://github.com/DaBekCarRie/crud-callmeapi-postman",
         demo:"https://crud-callmeapi-postman.web.app"
     },
-    // {
-    //     id:5,
-    //     name:"React JS Application",
-    //     image:bear1,
-    //     github:"/",
-    //     demo:"/"
-    // },
+    {
+        id:5,
+        name:"Travel Agency Dashboard",
+        image:travelAgency,
+        github:"https://github.com/DaBekCarRie/travel-agency-dashboard",
+        demo:"https://travel-agency-dashboard-neon.vercel.app/"
+    },
     // {
     //     id:6,
     //     name:"React JS Application",
