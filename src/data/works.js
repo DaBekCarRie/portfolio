@@ -34,13 +34,13 @@ export const works =[
         github:"https://github.com/DaBekCarRie/crud-callmeapi-postman",
         demo:"https://crud-callmeapi-postman.web.app"
     },
-    {
-        id:5,
-        name:"Travel Agency Dashboard",
-        image:travelAgency,
-        github:"https://github.com/DaBekCarRie/travel-agency-dashboard",
-        demo:"https://travel-agency-dashboard-neon.vercel.app/"
-    },
+    // {
+    //     id:5,
+    //     name:"Travel Agency Dashboard",
+    //     image:travelAgency,
+    //     github:"https://github.com/DaBekCarRie/travel-agency-dashboard",
+    //     demo:"https://travel-agency-dashboard-neon.vercel.app/"
+    // },
     // {
     //     id:6,
     //     name:"React JS Application",
