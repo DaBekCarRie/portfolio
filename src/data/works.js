@@ -2,7 +2,8 @@ import barinstrom from '../assets/workpic/barinstrom.png'
 import sunny from '../assets/workpic/sunny.png'
 import todoApp from '../assets/workpic/todoApp.png'
 import crud from '../assets/workpic/crud.png'
-import travelAgency from '../assets/workpic/travel_agency.png'
+// import travelAgency from '../assets/workpic/travel_agency.png'
+import cocktails from '../assets/workpic/cocktails.png'
 
 
 export const works =[
@@ -33,6 +34,13 @@ export const works =[
         image:crud,
         github:"https://github.com/DaBekCarRie/crud-callmeapi-postman",
         demo:"https://crud-callmeapi-postman.web.app"
+    },
+    {
+        id:5,
+        name:"Cocktails Landing Page",
+        image:cocktails,
+        github:"https://github.com/DaBekCarRie/gasp_cocktail",
+        demo:"https://gasp-cocktail-phi.vercel.app"
     },
     // {
     //     id:5,
