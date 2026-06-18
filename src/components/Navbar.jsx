@@ -8,115 +8,121 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[80px] flex justify-end items-center px-4 bg-[#0a192f] text-gray-300 z-50">
-      {/* menu จอปกติ */}
-      <div className="hidden md:flex ">
-        <ul className="md:flex">
-          <li>
-            <Link to="home" smooth={true} duration={500}>
+    <>
+      <div className="fixed w-full h-[80px] flex justify-end items-center px-4 bg-[#0a192f]/70 backdrop-blur-sm text-gray-300 z-50">
+        {/* menu จอปกติ */}
+        <div className="hidden md:flex ">
+          <ul className="md:flex">
+            <li>
+              <Link to="home" smooth={true} duration={500}>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="about" smooth={true} duration={500} >
+                About
+              </Link>
+            </li>
+            <li>
+              <Link to="skills" smooth={true} duration={500} offset={-80}>
+                Skills
+              </Link>
+            </li>
+            <li>
+              <Link to="work" smooth={true} duration={500} offset={-80}>
+                Experience
+              </Link>
+            </li>
+            <li>
+              <Link to="activity" smooth={true} duration={500} offset={-80}>
+                Activity
+              </Link>
+            </li>
+            <li>
+              <Link to="contact" smooth={true} duration={500}>
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        {/* mobile menu จอกลางขึ้นไป จะไม่ขึ้น */}
+        <button onClick={handleClick} className="md:hidden z-10" aria-label="Toggle menu">
+          {!nav ? <FaBars className="cursor-pointer" /> : <FaTimes />}
+        </button>
+        {/* mobile menu */}
+        <ul
+          className={
+            !nav
+              ? "hidden"
+              : "absolute top-0 left-0 w-full h-screen bg-[#0a192f]/95 backdrop-blur-sm flex flex-col justify-center items-center"
+          }
+        >
+          <li className="py-6 text-4xl">
+            <Link onClick={handleClick} to="home" smooth={true} duration={500}>
               Home
             </Link>
           </li>
-          <li>
-            <Link to="abouts" smooth={true} duration={500} >
+          <li className="py-6 text-4xl">
+            <Link onClick={handleClick} to="about" smooth={true} duration={500} 
+              offset={-80}
+            >
               About
             </Link>
           </li>
-          <li>
-            <Link to="skills" smooth={true} duration={500} offset={-80}>
+          <li className="py-6 text-4xl">
+            <Link
+              onClick={handleClick}
+              to="skills"
+              smooth={true}
+              duration={500}
+              offset={-80}
+            >
               Skills
             </Link>
           </li>
-          <li>
-            <Link to="work" smooth={true} duration={500} offset={-80}>
+          <li className="py-6 text-4xl">
+            <Link
+              onClick={handleClick}
+              to="work"
+              smooth={true}
+              duration={500}
+              offset={-80}
+            >
               Experience
             </Link>
           </li>
-          <li>
-            <Link to="activity" smooth={true} duration={500} offset={-80}>
+          <li className="py-6 text-4xl">
+            <Link
+              onClick={handleClick}
+              to="activity"
+              smooth={true}
+              duration={500}
+              offset={-80}
+            >
               Activity
             </Link>
           </li>
-          <li>
-            <Link to="contact" smooth={true} duration={500}>
+          <li className="py-6 text-4xl">
+            <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
               Contact
             </Link>
           </li>
         </ul>
       </div>
 
-      {/* mobile menu จอกลางขึ้นไป จะไม่ขึ้น */}
-      <div onClick={handleClick} className="md:hidden z-10">
-        {!nav ? <FaBars className="cursor-pointer" /> : <FaTimes />}
-      </div>
-      {/* mobile menu */}
-      <ul
-        className={
-          !nav
-            ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
-        }
-      >
-        <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
-        <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500} 
-            offset={-80}
-          >
-            About
-          </Link>
-        </li>
-        <li className="py-6 text-4xl">
-          <Link
-            onClick={handleClick}
-            to="skills"
-            smooth={true}
-            duration={500}
-            offset={-80}
-          >
-            Skills
-          </Link>
-        </li>
-        <li className="py-6 text-4xl">
-          <Link
-            onClick={handleClick}
-            to="work"
-            smooth={true}
-            duration={500}
-            offset={-80}
-          >
-            Experience
-          </Link>
-        </li>
-        <li className="py-6 text-4xl">
-          <Link
-            onClick={handleClick}
-            to="activity"
-            smooth={true}
-            duration={500}
-            offset={-80}
-          >
-            Activity
-          </Link>
-        </li>
-        <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
-        </li>
-      </ul>
-
       {/* social icons */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+      <div 
+        className="hidden lg:flex fixed flex-col left-0 z-50"
+        style={{ top: '50%', transform: 'translateY(-50%)' }}
+      >
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 rounded-tr-lg">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/chaini-mitrsatit-9aa99b254/"
-              target="blank"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -125,7 +131,8 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/DaBekCarRie"
-              target="blank"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Github <FaGithub size={30} />
             </a>
@@ -134,7 +141,8 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="mailto:chaini.mst@gmail.com"
-              target="blank"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -145,13 +153,14 @@ const Navbar = () => {
               href="/Chaini_resume.pdf"
               download
               target="_blank"
+              rel="noopener noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>
       </div>
-    </div>
+    </>
   );
 };
 

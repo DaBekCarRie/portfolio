@@ -1,27 +1,21 @@
-import html from "../assets/skillpic/html.png";
-import react from "../assets/skillpic/react.png";
-import tailwind from "../assets/skillpic/tailwind.png";
-import python from "../assets/skillpic/python.png";
-import c from "../assets/skillpic/c.png";
-import javascript from "../assets/skillpic/javascript.png";
-import firebase from "../assets/skillpic/firebase.png";
-import github from "../assets/skillpic/github.webp";
-import nextjs from "../assets/skillpic/nextjs.png";
-import typescript from "../assets/skillpic/typescript.png";
-import css from "../assets/skillpic/css.png";
-import bootstrap from "../assets/skillpic/bootstrap.png";
-
 export const skills = [
-  { name: "css", img: css },
-  { name: "html", img: html },
-  { name: "react", img: react },
-  { name: "nextjs", img: nextjs },
-  { name: "javascript", img: javascript },
-  { name: "typescript", img: typescript },
-  { name: "bootstrap", img: bootstrap },
-  { name: "tailwind", img: tailwind ,css:'pt-[40px] pb-[10px]'},
-  { name: "python", img: python },
-  { name: "c", img: c },
-  { name: "firebase", img: firebase },
-  { name: "github", img: github },
+  { name: "css", iconName: "css3" },
+  { name: "html", iconName: "html5" },
+  { name: "react", iconName: "react" },
+  { name: "nextjs", iconName: "nextjs2" },
+  { name: "javascript", iconName: "js" },
+  { name: "typescript", iconName: "typescript" },
+  { name: "bootstrap", iconName: "bootstrap5" },
+  { name: "tailwind", iconName: "tailwindcss" },
+  { name: "python", iconName: "python" },
+  { name: "firebase", iconName: "firebase" },
+  { name: "github", iconName: "github", variant: "dark" },
+  { name: "angular", iconName: "angular" },
+  { name: "postman", iconName: "postman" },
+  { name: "docker", iconName: "docker" },
+  { name: "kubernetes", iconName: "kubernetes" },
+  { name: ".net", iconName: "net" },
+  { name: "jest", iconName: "jest" },
+  { name: "playwright", iconName: "playwright" },
+  { name: "material ui", iconName: "materialui" },
 ];

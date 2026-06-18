@@ -8,6 +8,11 @@
     body {
         @apply font-[Montserrat];
     }
+    * {
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
     li{
         @apply px-4;
         @apply cursor-pointer;

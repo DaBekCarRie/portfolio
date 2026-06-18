@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.2.1",
     "autoprefixer": "^10.4.13",
     "clsx": "^2.1.1",
+    "framer-motion": "^12.40.0",
     "gsap": "^3.13.0",
     "postcss": "^8.4.18",
     "punycode": "^2.3.1",
@@ -18,6 +19,8 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.8",
     "tailwind-merge": "^3.3.0",
+    "tech-stack-icons": "^3.7.1",
+    "uuid": "^9.0.1",
     "web-vitals": "^2.1.0"
   },
   "scripts": {

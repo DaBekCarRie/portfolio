@@ -1,8 +1,10 @@
 import gsap from "gsap";
 import About from "./components/About";
 import Activities from "./components/Activities";
-import Contract from "./components/Contact";
-import Home from "./components/Home";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import GlobalBackground from "./components/GlobalBackground";
+import GooeyHome from "./components/GooeyHome";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
@@ -12,14 +14,16 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 
 function App() {
   return (
-    <div className="App bg-[#0a192f]">
+    <div className="App relative">
+      <GlobalBackground/>
       <Navbar/>
-      <Home/>
+      <GooeyHome/>
       <About/>
       <Skills/>
       <Work/>
       <Activities/>
-      <Contract/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }

@@ -26,7 +26,7 @@ const About = () => {
 
   },[])
   return (
-    <div name="abouts" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div name="about" className="w-full h-screen text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full  grid grid-cols-2 gap-8">
           <div id="about" className="sm:text-right pb-8 pl-4">
@@ -42,7 +42,7 @@ const About = () => {
           </div>
           <div id='right-about'>
             <p className="pt-1">
-             My name is Chaini Mitrsatit, a recent Computer Engineering graduate from Kasetsart University. I am seeking a job or internship opportunity to gain practical experience and further develop my skills in a professional environment.
+             My name is Chaini Mitrsatit, a Computer Engineering graduate from Kasetsart University. I am currently working as a software developer, passionate about building high-quality digital solutions and continuously expanding my skills in a professional environment.
             </p>
           </div>
         </div>
