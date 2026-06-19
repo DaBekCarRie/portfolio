@@ -6,10 +6,11 @@ const GlobalBackground = () => {
     <div className="fixed inset-0 -z-10 bg-[#0a192f] pointer-events-none">
       {/* Background image */}
       <img
-        src="https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=1600&q=80"
+        src="https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?w=1000&q=50"
         alt=""
         aria-hidden="true"
         className="w-full h-full object-cover absolute inset-0 opacity-40"
+        loading="eager"
       />
 
       {/* Dark overlay for readability */}
