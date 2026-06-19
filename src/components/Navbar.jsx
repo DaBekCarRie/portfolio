@@ -9,7 +9,16 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
   return (
     <>
-      <div className="fixed w-full h-[80px] flex justify-end items-center px-4 bg-[#0a192f]/70 backdrop-blur-sm text-gray-300 z-50">
+      <div className="fixed w-full h-[80px] flex justify-between items-center px-8 bg-[#0a192f]/70 backdrop-blur-sm text-gray-300 z-50">
+        {/* Logo */}
+        <div>
+          <Link to="home" smooth={true} duration={500} className="cursor-pointer">
+            <span className="text-3xl font-extrabold tracking-wider bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent hover:brightness-110 duration-300">
+              JOE
+            </span>
+          </Link>
+        </div>
+
         {/* menu จอปกติ */}
         <div className="hidden md:flex ">
           <ul className="md:flex">
