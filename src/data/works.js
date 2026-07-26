@@ -1,10 +1,12 @@
 import barinstrom from '../assets/workpic/barinstrom.png'
-import todoApp from '../assets/workpic/todoApp.png'
-import crud from '../assets/workpic/crud.png'
-import cocktails from '../assets/workpic/cocktails.png'
+// import todoApp from '../assets/workpic/todoApp.png'
+// import crud from '../assets/workpic/crud.png'
+// import cocktails from '../assets/workpic/cocktails.png'
 import expenseTracker from '../assets/workpic/expense-tracker.png'
 import kbtg from '../assets/workpic/kbtg.JPG'
 import teochew from '../assets/workpic/teochew.png'
+import punkhong from '../assets/workpic/punkhong.png'
+import icube from '../assets/workpic/icube.png'
 
 export const works = [
     {
@@ -17,42 +19,42 @@ export const works = [
         tags: ["Next.js", "Tailwind CSS", "WebSockets", "Stripe"],
         type: "project"
     },
-    {
-        id: 2,
-        name: "Todo-App With Firebase",
-        image: todoApp,
-        github: "https://github.com/DaBekCarRie/todo-firebase-crud",
-        demo: "https://todo-firebaes-crud.web.app",
-        description: "Real-time task organizer with authentication and cloud data persistence.",
-        tags: ["React", "Firebase", "Firestore", "Tailwind CSS"],
-        type: "project"
-    },
-    {
-        id: 3,
-        name: "Crud With REST Api",
-        image: crud,
-        github: "https://github.com/DaBekCarRie/crud-callmeapi-postman",
-        demo: "https://crud-callmeapi-postman.web.app",
-        description: "A data portal connecting user registries with mock backend REST services.",
-        tags: ["React", "Material UI", "REST API", "Postman"],
-        type: "project"
-    },
-    {
-        id: 4,
-        name: "Cocktails Landing Page",
-        image: cocktails,
-        github: "https://github.com/DaBekCarRie/gasp_cocktail",
-        demo: "https://gasp-cocktail-phi.vercel.app",
-        description: "High-end product landing page utilizing immersive GSAP-driven scroll animation spells.",
-        tags: ["React", "GSAP", "Tailwind CSS", "Vite"],
-        type: "project"
-    },
+    // {
+    //     id: 2,
+    //     name: "Todo-App With Firebase",
+    //     image: todoApp,
+    //     github: "https://github.com/DaBekCarRie/todo-firebase-crud",
+    //     demo: "https://todo-firebaes-crud.web.app",
+    //     description: "Real-time task organizer with authentication and cloud data persistence.",
+    //     tags: ["React", "Firebase", "Firestore", "Tailwind CSS"],
+    //     type: "project"
+    // },
+    // {
+    //     id: 3,
+    //     name: "Crud With REST Api",
+    //     image: crud,
+    //     github: "https://github.com/DaBekCarRie/crud-callmeapi-postman",
+    //     demo: "https://crud-callmeapi-postman.web.app",
+    //     description: "A data portal connecting user registries with mock backend REST services.",
+    //     tags: ["React", "Material UI", "REST API", "Postman"],
+    //     type: "project"
+    // },
+    // {
+    //     id: 4,
+    //     name: "Cocktails Landing Page",
+    //     image: cocktails,
+    //     github: "https://github.com/DaBekCarRie/gasp_cocktail",
+    //     demo: "https://gasp-cocktail-phi.vercel.app",
+    //     description: "High-end product landing page utilizing immersive GSAP-driven scroll animation spells.",
+    //     tags: ["React", "GSAP", "Tailwind CSS", "Vite"],
+    //     type: "project"
+    // },
     {
         id: 5,
         name: "Expense Tracker",
         image: expenseTracker,
         github: "https://github.com/DaBekCarRie/smart-expense-tracker",
-        demo: "https://expense-tracker-react-app.web.app",
+        demo: "https://smart-expense-tracker-coral.vercel.app/",
         description: "Inventory stock system integrated with an AI API to scan purchase receipts and automatically record logs.",
         tags: ["Next.js", "FastAPI", "TypeScript", "Python", "PostgreSQL", "AI Integration"],
         type: "project"
@@ -69,6 +71,26 @@ export const works = [
     },
     {
         id: 7,
+        name: "Punkhong (ปันของ)",
+        image: punkhong,
+        github: "",
+        demo: "https://punkhong.vercel.app",
+        description: "A donation platform enabling users to browse campaigns and directly purchase essential items for foundations.",
+        tags: ["Next.js", "React", "Tailwind CSS"],
+        type: "project"
+    },
+    {
+        id: 8,
+        name: "Software Developer @ iCube",
+        image: icube,
+        github: "",
+        demo: "https://icube.co.th/",
+        description: "Developed data automation solutions and web applications for manufacturing clients.",
+        tags: ["React", "Next.js", "TypeScript"],
+        type: "experience"
+    },
+    {
+        id: 9,
         name: "Frontend Intern @ KBTG",
         image: kbtg,
         github: "",
@@ -78,4 +100,3 @@ export const works = [
         type: "experience"
     }
 ]
- 
