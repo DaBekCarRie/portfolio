@@ -1,5 +1,5 @@
 import React from "react";
-import StackIcon from "tech-stack-icons";
+import StackIcon from "../lib/stack-icons";
 import { skills } from "../data/skill";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
